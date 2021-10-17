@@ -1,0 +1,701 @@
+PINS 233 ;
+- vdd + NET vdd
+  + LAYER metal6 ( -80 -40 ) ( 80 40 )
+  + PLACED ( 3680 -260 ) N ;
+- gnd + NET gnd
+  + LAYER metal6 ( -80 -40 ) ( 80 40 )
+  + PLACED ( 8800 -260 ) N ;
+- clk + NET clk
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 20480 42300 ) N ;
+- bloque_datos[0] + NET bloque_datos[0]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 39680 42300 ) N ;
+- bloque_datos[1] + NET bloque_datos[1]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 37360 42300 ) N ;
+- bloque_datos[2] + NET bloque_datos[2]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 21600 42300 ) N ;
+- bloque_datos[3] + NET bloque_datos[3]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 43120 42300 ) N ;
+- bloque_datos[4] + NET bloque_datos[4]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 30320 42300 ) N ;
+- bloque_datos[5] + NET bloque_datos[5]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 38800 42300 ) N ;
+- bloque_datos[6] + NET bloque_datos[6]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 42960 42300 ) N ;
+- bloque_datos[7] + NET bloque_datos[7]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 37920 42300 ) N ;
+- bloque_datos[8] + NET bloque_datos[8]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 17600 ) N ;
+- bloque_datos[9] + NET bloque_datos[9]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 50560 42300 ) N ;
+- bloque_datos[10] + NET bloque_datos[10]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 32800 ) N ;
+- bloque_datos[11] + NET bloque_datos[11]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51280 42300 ) N ;
+- bloque_datos[12] + NET bloque_datos[12]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53280 42300 ) N ;
+- bloque_datos[13] + NET bloque_datos[13]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 47440 42300 ) N ;
+- bloque_datos[14] + NET bloque_datos[14]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 50320 42300 ) N ;
+- bloque_datos[15] + NET bloque_datos[15]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 41760 42300 ) N ;
+- bloque_datos[16] + NET bloque_datos[16]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 23400 ) N ;
+- bloque_datos[17] + NET bloque_datos[17]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 21600 ) N ;
+- bloque_datos[18] + NET bloque_datos[18]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 24800 ) N ;
+- bloque_datos[19] + NET bloque_datos[19]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 27500 ) N ;
+- bloque_datos[20] + NET bloque_datos[20]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 27300 ) N ;
+- bloque_datos[21] + NET bloque_datos[21]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 29500 ) N ;
+- bloque_datos[22] + NET bloque_datos[22]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 30500 ) N ;
+- bloque_datos[23] + NET bloque_datos[23]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 47280 42300 ) N ;
+- bloque_datos[24] + NET bloque_datos[24]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 17400 ) N ;
+- bloque_datos[25] + NET bloque_datos[25]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 24600 ) N ;
+- bloque_datos[26] + NET bloque_datos[26]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 29300 ) N ;
+- bloque_datos[27] + NET bloque_datos[27]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 23600 ) N ;
+- bloque_datos[28] + NET bloque_datos[28]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 30900 ) N ;
+- bloque_datos[29] + NET bloque_datos[29]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 32500 ) N ;
+- bloque_datos[30] + NET bloque_datos[30]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 29700 ) N ;
+- bloque_datos[31] + NET bloque_datos[31]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 50080 42300 ) N ;
+- bloque_datos[32] + NET bloque_datos[32]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 15700 ) N ;
+- bloque_datos[33] + NET bloque_datos[33]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 19700 ) N ;
+- bloque_datos[34] + NET bloque_datos[34]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 23800 ) N ;
+- bloque_datos[35] + NET bloque_datos[35]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 20400 ) N ;
+- bloque_datos[36] + NET bloque_datos[36]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 22000 ) N ;
+- bloque_datos[37] + NET bloque_datos[37]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 22800 ) N ;
+- bloque_datos[38] + NET bloque_datos[38]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 41500 ) N ;
+- bloque_datos[39] + NET bloque_datos[39]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 25500 ) N ;
+- bloque_datos[40] + NET bloque_datos[40]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 13500 ) N ;
+- bloque_datos[41] + NET bloque_datos[41]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 17200 ) N ;
+- bloque_datos[42] + NET bloque_datos[42]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 600 ) N ;
+- bloque_datos[43] + NET bloque_datos[43]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 15500 ) N ;
+- bloque_datos[44] + NET bloque_datos[44]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 14800 ) N ;
+- bloque_datos[45] + NET bloque_datos[45]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 18900 ) N ;
+- bloque_datos[46] + NET bloque_datos[46]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 18500 ) N ;
+- bloque_datos[47] + NET bloque_datos[47]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 26700 ) N ;
+- bloque_datos[48] + NET bloque_datos[48]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 11600 ) N ;
+- bloque_datos[49] + NET bloque_datos[49]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 16800 ) N ;
+- bloque_datos[50] + NET bloque_datos[50]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 15300 ) N ;
+- bloque_datos[51] + NET bloque_datos[51]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 18700 ) N ;
+- bloque_datos[52] + NET bloque_datos[52]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 19500 ) N ;
+- bloque_datos[53] + NET bloque_datos[53]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 22600 ) N ;
+- bloque_datos[54] + NET bloque_datos[54]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 19520 42300 ) N ;
+- bloque_datos[55] + NET bloque_datos[55]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 21800 ) N ;
+- bloque_datos[56] + NET bloque_datos[56]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 48000 -200 ) N ;
+- bloque_datos[57] + NET bloque_datos[57]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 16600 ) N ;
+- bloque_datos[58] + NET bloque_datos[58]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 49920 -200 ) N ;
+- bloque_datos[59] + NET bloque_datos[59]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 8600 ) N ;
+- bloque_datos[60] + NET bloque_datos[60]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 5800 ) N ;
+- bloque_datos[61] + NET bloque_datos[61]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 7600 ) N ;
+- bloque_datos[62] + NET bloque_datos[62]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 28500 ) N ;
+- bloque_datos[63] + NET bloque_datos[63]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 17000 ) N ;
+- bloque_datos[64] + NET bloque_datos[64]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 39680 -200 ) N ;
+- bloque_datos[65] + NET bloque_datos[65]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 34560 -200 ) N ;
+- bloque_datos[66] + NET bloque_datos[66]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 11800 ) N ;
+- bloque_datos[67] + NET bloque_datos[67]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 43200 -200 ) N ;
+- bloque_datos[68] + NET bloque_datos[68]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 44160 -200 ) N ;
+- bloque_datos[69] + NET bloque_datos[69]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 39840 -200 ) N ;
+- bloque_datos[70] + NET bloque_datos[70]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 21120 42300 ) N ;
+- bloque_datos[71] + NET bloque_datos[71]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 32320 42300 ) N ;
+- bloque_datos[72] + NET bloque_datos[72]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 21360 -200 ) N ;
+- bloque_datos[73] + NET bloque_datos[73]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 40400 -200 ) N ;
+- bloque_datos[74] + NET bloque_datos[74]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 30800 -200 ) N ;
+- bloque_datos[75] + NET bloque_datos[75]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 49360 -200 ) N ;
+- bloque_datos[76] + NET bloque_datos[76]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 48800 -200 ) N ;
+- bloque_datos[77] + NET bloque_datos[77]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 54720 -200 ) N ;
+- bloque_datos[78] + NET bloque_datos[78]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51920 -200 ) N ;
+- bloque_datos[79] + NET bloque_datos[79]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 10700 ) N ;
+- bloque_datos[80] + NET bloque_datos[80]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 27200 -200 ) N ;
+- bloque_datos[81] + NET bloque_datos[81]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 38800 -200 ) N ;
+- bloque_datos[82] + NET bloque_datos[82]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 22480 -200 ) N ;
+- bloque_datos[83] + NET bloque_datos[83]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 38640 -200 ) N ;
+- bloque_datos[84] + NET bloque_datos[84]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 39280 -200 ) N ;
+- bloque_datos[85] + NET bloque_datos[85]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 31760 -200 ) N ;
+- bloque_datos[86] + NET bloque_datos[86]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 35520 -200 ) N ;
+- bloque_datos[87] + NET bloque_datos[87]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 41200 -200 ) N ;
+- bloque_datos[88] + NET bloque_datos[88]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 28640 -200 ) N ;
+- bloque_datos[89] + NET bloque_datos[89]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 31040 -200 ) N ;
+- bloque_datos[90] + NET bloque_datos[90]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 26160 -200 ) N ;
+- bloque_datos[91] + NET bloque_datos[91]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 36400 -200 ) N ;
+- bloque_datos[92] + NET bloque_datos[92]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 36160 -200 ) N ;
+- bloque_datos[93] + NET bloque_datos[93]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 42000 -200 ) N ;
+- bloque_datos[94] + NET bloque_datos[94]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 45120 -200 ) N ;
+- bloque_datos[95] + NET bloque_datos[95]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 48960 -200 ) N ;
+- inicio + NET inicio
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 27760 42300 ) N ;
+- target[0] + NET target[0]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 7500 ) N ;
+- target[1] + NET target[1]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 6700 ) N ;
+- target[2] + NET target[2]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 4800 ) N ;
+- target[3] + NET target[3]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 5400 ) N ;
+- target[4] + NET target[4]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 9440 -200 ) N ;
+- target[5] + NET target[5]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 8320 -200 ) N ;
+- target[6] + NET target[6]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 10560 -200 ) N ;
+- target[7] + NET target[7]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 10400 -200 ) N ;
+- bounty[0] + NET bounty[0]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 4000 -200 ) N ;
+- bounty[1] + NET bounty[1]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 3120 -200 ) N ;
+- bounty[2] + NET bounty[2]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 7700 ) N ;
+- bounty[3] + NET bounty[3]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 5680 -200 ) N ;
+- bounty[4] + NET bounty[4]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 9500 ) N ;
+- bounty[5] + NET bounty[5]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 5840 -200 ) N ;
+- bounty[6] + NET bounty[6]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 11700 ) N ;
+- bounty[7] + NET bounty[7]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 10500 ) N ;
+- bounty[8] + NET bounty[8]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1520 -200 ) N ;
+- bounty[9] + NET bounty[9]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 8500 ) N ;
+- bounty[10] + NET bounty[10]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 3500 ) N ;
+- bounty[11] + NET bounty[11]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 2500 ) N ;
+- bounty[12] + NET bounty[12]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 9120 -200 ) N ;
+- bounty[13] + NET bounty[13]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 5440 -200 ) N ;
+- bounty[14] + NET bounty[14]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 8080 -200 ) N ;
+- bounty[15] + NET bounty[15]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 6240 -200 ) N ;
+- bounty[16] + NET bounty[16]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 3520 -200 ) N ;
+- bounty[17] + NET bounty[17]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1920 -200 ) N ;
+- bounty[18] + NET bounty[18]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 2720 -200 ) N ;
+- bounty[19] + NET bounty[19]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 4480 -200 ) N ;
+- bounty[20] + NET bounty[20]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 10800 -200 ) N ;
+- bounty[21] + NET bounty[21]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 12000 -200 ) N ;
+- bounty[22] + NET bounty[22]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 10000 -200 ) N ;
+- bounty[23] + NET bounty[23]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 6640 -200 ) N ;
+- bounty[24] + NET bounty[24]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 12400 -200 ) N ;
+- bounty[25] + NET bounty[25]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 5680 42300 ) N ;
+- bounty[26] + NET bounty[26]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51200 -200 ) N ;
+- bounty[27] + NET bounty[27]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 33440 42300 ) N ;
+- bounty[28] + NET bounty[28]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 40500 ) N ;
+- bounty[29] + NET bounty[29]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 17760 42300 ) N ;
+- bounty[30] + NET bounty[30]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 40700 ) N ;
+- bounty[31] + NET bounty[31]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 30560 -200 ) N ;
+- bounty[32] + NET bounty[32]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 49920 42300 ) N ;
+- bounty[33] + NET bounty[33]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 12500 ) N ;
+- bounty[34] + NET bounty[34]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 26500 ) N ;
+- bounty[35] + NET bounty[35]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 15500 ) N ;
+- bounty[36] + NET bounty[36]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1920 42300 ) N ;
+- bounty[37] + NET bounty[37]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 55680 -200 ) N ;
+- bounty[38] + NET bounty[38]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 2500 ) N ;
+- bounty[39] + NET bounty[39]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 44320 -200 ) N ;
+- bounty[40] + NET bounty[40]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 12800 -200 ) N ;
+- bounty[41] + NET bounty[41]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 54560 42300 ) N ;
+- bounty[42] + NET bounty[42]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 34500 ) N ;
+- bounty[43] + NET bounty[43]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51040 42300 ) N ;
+- bounty[44] + NET bounty[44]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 13700 ) N ;
+- bounty[45] + NET bounty[45]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 11500 ) N ;
+- bounty[46] + NET bounty[46]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 38960 -200 ) N ;
+- bounty[47] + NET bounty[47]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 34800 -200 ) N ;
+- bounty[48] + NET bounty[48]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 11040 42300 ) N ;
+- bounty[49] + NET bounty[49]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 30700 ) N ;
+- bounty[50] + NET bounty[50]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 35500 ) N ;
+- bounty[51] + NET bounty[51]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 4880 42300 ) N ;
+- bounty[52] + NET bounty[52]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 20960 42300 ) N ;
+- bounty[53] + NET bounty[53]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 3500 ) N ;
+- bounty[54] + NET bounty[54]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 10240 -200 ) N ;
+- bounty[55] + NET bounty[55]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 8700 ) N ;
+- bounty[56] + NET bounty[56]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 36500 ) N ;
+- bounty[57] + NET bounty[57]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53120 -200 ) N ;
+- bounty[58] + NET bounty[58]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 38500 ) N ;
+- bounty[59] + NET bounty[59]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 20500 ) N ;
+- bounty[60] + NET bounty[60]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 49520 -200 ) N ;
+- bounty[61] + NET bounty[61]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 13500 ) N ;
+- bounty[62] + NET bounty[62]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 55120 42300 ) N ;
+- bounty[63] + NET bounty[63]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 39800 ) N ;
+- bounty[64] + NET bounty[64]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 15760 42300 ) N ;
+- bounty[65] + NET bounty[65]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 52720 -200 ) N ;
+- bounty[66] + NET bounty[66]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 39500 ) N ;
+- bounty[67] + NET bounty[67]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 50400 -200 ) N ;
+- bounty[68] + NET bounty[68]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 16960 42300 ) N ;
+- bounty[69] + NET bounty[69]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1520 42300 ) N ;
+- bounty[70] + NET bounty[70]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 6500 ) N ;
+- bounty[71] + NET bounty[71]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 21500 ) N ;
+- bounty[72] + NET bounty[72]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 55520 42300 ) N ;
+- bounty[73] + NET bounty[73]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 720 42300 ) N ;
+- bounty[74] + NET bounty[74]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 31360 -200 ) N ;
+- bounty[75] + NET bounty[75]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 14500 ) N ;
+- bounty[76] + NET bounty[76]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 54560 -200 ) N ;
+- bounty[77] + NET bounty[77]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 42160 -200 ) N ;
+- bounty[78] + NET bounty[78]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 19900 ) N ;
+- bounty[79] + NET bounty[79]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 34880 42300 ) N ;
+- bounty[80] + NET bounty[80]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 49280 42300 ) N ;
+- bounty[81] + NET bounty[81]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53040 42300 ) N ;
+- bounty[82] + NET bounty[82]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 29760 -200 ) N ;
+- bounty[83] + NET bounty[83]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 32500 ) N ;
+- bounty[84] + NET bounty[84]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 4500 ) N ;
+- bounty[85] + NET bounty[85]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 42800 -200 ) N ;
+- bounty[86] + NET bounty[86]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53760 42300 ) N ;
+- bounty[87] + NET bounty[87]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 17500 ) N ;
+- bounty[88] + NET bounty[88]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 16560 42300 ) N ;
+- bounty[89] + NET bounty[89]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 17360 42300 ) N ;
+- bounty[90] + NET bounty[90]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 16160 42300 ) N ;
+- bounty[91] + NET bounty[91]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53520 -200 ) N ;
+- bounty[92] + NET bounty[92]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 5500 ) N ;
+- bounty[93] + NET bounty[93]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 55280 -200 ) N ;
+- bounty[94] + NET bounty[94]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 35500 ) N ;
+- bounty[95] + NET bounty[95]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 56080 -200 ) N ;
+- bounty[96] + NET bounty[96]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 37500 ) N ;
+- bounty[97] + NET bounty[97]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51840 42300 ) N ;
+- bounty[98] + NET bounty[98]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 15760 -200 ) N ;
+- bounty[99] + NET bounty[99]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 51440 42300 ) N ;
+- bounty[100] + NET bounty[100]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 50720 42300 ) N ;
+- bounty[101] + NET bounty[101]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 18560 42300 ) N ;
+- bounty[102] + NET bounty[102]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 9500 ) N ;
+- bounty[103] + NET bounty[103]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 2320 42300 ) N ;
+- bounty[104] + NET bounty[104]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 27500 ) N ;
+- bounty[105] + NET bounty[105]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 5280 42300 ) N ;
+- bounty[106] + NET bounty[106]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 52320 -200 ) N ;
+- bounty[107] + NET bounty[107]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 40000 ) N ;
+- bounty[108] + NET bounty[108]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 54160 42300 ) N ;
+- bounty[109] + NET bounty[109]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 20700 ) N ;
+- bounty[110] + NET bounty[110]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 15360 -200 ) N ;
+- bounty[111] + NET bounty[111]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 29440 -200 ) N ;
+- bounty[112] + NET bounty[112]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1120 42300 ) N ;
+- bounty[113] + NET bounty[113]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 12500 ) N ;
+- bounty[114] + NET bounty[114]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 1120 -200 ) N ;
+- bounty[115] + NET bounty[115]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 53920 -200 ) N ;
+- bounty[116] + NET bounty[116]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 52640 42300 ) N ;
+- bounty[117] + NET bounty[117]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 42400 -200 ) N ;
+- bounty[118] + NET bounty[118]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( -240 40500 ) N ;
+- bounty[119] + NET bounty[119]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 4500 ) N ;
+- bounty[120] + NET bounty[120]
+  + LAYER metal3 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 58880 20100 ) N ;
+- bounty[121] + NET bounty[121]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 2720 42300 ) N ;
+- bounty[122] + NET bounty[122]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 52240 42300 ) N ;
+- bounty[123] + NET bounty[123]
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 14160 -200 ) N ;
+- terminado + NET terminado
+  + LAYER metal2 ( -15 -15 ) ( 15 15 )
+  + PLACED ( 11600 -200 ) N ;
+END PINS

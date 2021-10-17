@@ -1,0 +1,8 @@
+Medición	Tiempo [min:seg]
+Placement		17:03
+Routing		44:15
+PR STA			0:41
+Migration		15:16
+DRC			1:28
+ 
+Cantidad de DRCs = 9

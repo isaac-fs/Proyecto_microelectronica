@@ -1,0 +1,37 @@
+Qflow DRC logfile created on lun 26 jul 16:50:43 CST 2021
+magic -dnull -noconsole  /home/isaac/Desktop/Microelectrónica/Proyecto/Parte_2/area_micro_ucr_hash/layout/run_drc_micro_ucr_hash.tcl
+
+Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "/home/isaac/Desktop/Microelectrónica/Proyecto/Parte_2/area_micro_ucr_hash/layout/run_drc_micro_ucr_hash.tcl" from command line.
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read, Line 309 (Message): Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+LEF read: Processed 2941 lines.
+micro_ucr_hash: 10000 rects
+micro_ucr_hash: 20000 rects
+micro_ucr_hash: 30000 rects
+micro_ucr_hash: 40000 rects
+micro_ucr_hash: 50000 rects
+micro_ucr_hash: 60000 rects
+micro_ucr_hash: 70000 rects
+Processing timestamp mismatches: FILL, INVX1, BUFX2, NOR3X1, NAND3X1, AOI21X1, OAI21X1, INVX2, NAND2X1, NOR2X1, BUFX4, AND2X2, OAI22X1, AOI22X1, OR2X2, XNOR2X1, XOR2X1, INVX4, DFFPOSX1, CLKBUF1, INVX8.
+drc = 2
+DRC failure:  There are 2 DRC errors in the layout.
+Premature exit.
+Synthesis flow stopped due to error condition.

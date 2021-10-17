@@ -1,0 +1,78 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Jul 26 17:37:11 2021
+[*]
+[dumpfile] "/mnt/d/MEGASync/VII/Microelectrónica/Proyecto/Parte_2/Proyecto_p2_Isaac_Fonseca/performance_micro_ucr_hash/testbench/simulacion.vcd"
+[dumpfile_mtime] "Mon Jul 26 05:30:12 2021"
+[dumpfile_size] 21858654
+[savefile] "/mnt/d/MEGASync/VII/Microelectrónica/Proyecto/Parte_2/Proyecto_p2_Isaac_Fonseca/performance_micro_ucr_hash/testbench/micro_ucr_hash_mod_sim.gtkw"
+[timestart] 0
+[size] 1848 894
+[pos] -1 -1
+*-53.826218 65070000000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.micro_ucr_hash_mod_0.
+[sst_width] 233
+[signals_width] 563
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+testbench.clk
+@200
+-
+@28
+testbench.probador_0.inicio
+@22
+testbench.probador_0.target[7:0]
+@200
+-
+@22
+testbench.probador_0.nonce_iniciales[127:0]
+testbench.probador_0.bloque_datos[95:0]
+@200
+-
+-
+@22
+testbench.micro_ucr_hash_mod_0.module_0.H[23:0]
+@28
+testbench.micro_ucr_hash_mod_0.module_0.terminado
+@22
+testbench.micro_ucr_hash_mod_0.module_0.bloque[127:0]
+@200
+-
+@22
+testbench.micro_ucr_hash_mod_0.module_1.H[23:0]
+@28
+testbench.micro_ucr_hash_mod_0.module_1.terminado
+@22
+testbench.micro_ucr_hash_mod_0.module_1.bloque[127:0]
+@200
+-
+@22
+testbench.micro_ucr_hash_mod_0.module_2.H[23:0]
+@28
+testbench.micro_ucr_hash_mod_0.module_2.terminado
+@22
+testbench.micro_ucr_hash_mod_0.module_2.bloque[127:0]
+@200
+-
+@23
+testbench.micro_ucr_hash_mod_0.module_3.H[23:0]
+@28
+testbench.micro_ucr_hash_mod_0.module_3.terminado
+@22
+testbench.micro_ucr_hash_mod_0.module_3.bloque[127:0]
+@200
+-
+@28
+[color] 3
+testbench.probador_0.terminado_out
+@22
+[color] 3
+testbench.micro_ucr_hash_mod_0.control_bounty_0.bounty_out[23:0]
+@200
+-
+@420
+testbench.probador_0.contador
+[pattern_trace] 1
+[pattern_trace] 0
